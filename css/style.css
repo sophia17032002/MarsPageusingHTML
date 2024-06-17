@@ -26,18 +26,6 @@ body {
     z-index: -1; /* Move background image behind content */
 }
 
-.bg-img3 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url(/images/galaxy.jpg) no-repeat fixed center;
-    background-size: cover;
-    animation: scaling 60s linear infinite;
-    z-index: -1; /* Move background image behind content */
-}
-
 @keyframes scaling {
     0% {
         transform: scale(1);
